@@ -10,7 +10,8 @@ import './style.css'
 const stages = stagesData as any[]
 const skills = skillsData as Skill[]
 const statLabels: Record<StatKey, string> = { red: '紅', blue: '藍', green: '綠' }
-const statIconPaths: Record<StatKey, string> = { red: '/stats/red.png', blue: '/stats/blue.png', green: '/stats/green.png' }
+const BASE = import.meta.env.BASE_URL
+const statIconPaths: Record<StatKey, string> = { red: `${BASE}stats/red.png`, blue: `${BASE}stats/blue.png`, green: `${BASE}stats/green.png` }
 
 function App() {
   const state = useAppStore()
@@ -287,7 +288,7 @@ function SkillPill({ skillId }: { skillId: string }) {
 function SkillIcon({ skillId }: { skillId: string }) {
   const skill = skills.find(s => s.id === skillId)
   if (!skill?.icon) return <span className="skill-fallback">{skill?.name?.slice(0, 1) ?? '?'}</span>
-  return <img className="skill-icon" src={skill.icon} alt={skill.name} />
+  return <img className="skill-icon" src={`${BASE}${skill.icon}`} alt={skill.name} />
 }
 
 function StatIcon({ stat }: { stat?: StatKey }) {

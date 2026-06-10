@@ -1,40 +1,192 @@
 [
-  { "id": "stone", "name": "石頭", "icon": "/skills/stone.png" },
-  { "id": "slow", "name": "遲鈍", "icon": "/skills/slow.png" },
-  { "id": "fast", "name": "快腿", "icon": "/skills/fast.png" },
-  { "id": "lucky", "name": "幸運", "icon": "/skills/lucky.png" },
-  { "id": "small", "name": "嬌小", "icon": "/skills/small.png" },
-  { "id": "ironFist", "name": "鐵拳", "icon": "/skills/iron.png" },
-  { "id": "iron", "name": "鐵拳", "icon": "/skills/iron.png" },
-  { "id": "glow", "name": "發光", "icon": "/skills/light.png" },
-  { "id": "light", "name": "發光", "icon": "/skills/light.png" },
-  { "id": "strong", "name": "大力士", "icon": "/skills/power.png" },
-  { "id": "power", "name": "大力士", "icon": "/skills/power.png" },
-  { "id": "swimmer", "name": "泳將", "icon": "/skills/swimmer.png" },
-  { "id": "robot", "name": "機器人", "icon": "/skills/robot.png" },
-  { "id": "bigEater", "name": "大胃王", "icon": "/skills/eater.png" },
-  { "id": "eater", "name": "大胃王", "icon": "/skills/eater.png" },
-  { "id": "poison", "name": "毒", "icon": "/skills/poison.png" },
-  { "id": "motivation", "name": "幹勁", "icon": "/skills/motivation.png" },
-  { "id": "fly", "name": "飛翔", "icon": "/skills/fly.png" },
-  { "id": "detect", "name": "偵測", "icon": "/skills/detect.png" },
-  { "id": "barrier", "name": "屏障", "icon": "/skills/barrier.png" },
-  { "id": "hearing", "name": "音感", "icon": "/skills/music.png" },
-  { "id": "music", "name": "音感", "icon": "/skills/music.png" },
-  { "id": "nightVision", "name": "夜視", "icon": "/skills/nightVision.png" },
-  { "id": "night", "name": "夜視", "icon": "/skills/night.png" },
-  { "id": "bomb", "name": "爆炸", "icon": "/skills/bomb.png" },
-  { "id": "weapon", "name": "手持武器", "icon": "/skills/weapon.png" },
-  { "id": "dive", "name": "潛水", "icon": "/skills/dive.png" },
-  { "id": "ride", "name": "搭乘", "icon": "/skills/ride.png" },
-  { "id": "cold", "name": "耐寒", "icon": "/skills/cold.png" },
-  { "id": "photosynthesis", "name": "光合成", "icon": "/skills/photosynthesis.png" },
-  { "id": "cute", "name": "可愛", "icon": "/skills/cute.png" },
-  { "id": "smart", "name": "聰明", "icon": "/skills/smart.png" },
-  { "id": "food", "name": "食物", "icon": "/skills/food.png" },
-  { "id": "range", "name": "遠距離攻擊", "icon": "/skills/range.png" },
-  { "id": "melee", "name": "近距離攻擊", "icon": "/skills/melee.png" },
-  { "id": "brave", "name": "勇氣", "icon": "/skills/brave.png" },
-  { "id": "camouflage", "name": "偽裝", "icon": "/skills/camouflage.png" },
-  { "id": "slime", "name": "黏液", "icon": "/skills/slime.png" }
+  {
+    "id": "stone",
+    "name": "石頭",
+    "icon": "skills/stone.png"
+  },
+  {
+    "id": "slow",
+    "name": "遲鈍",
+    "icon": "skills/slow.png"
+  },
+  {
+    "id": "fast",
+    "name": "快腿",
+    "icon": "skills/fast.png"
+  },
+  {
+    "id": "lucky",
+    "name": "幸運",
+    "icon": "skills/lucky.png"
+  },
+  {
+    "id": "small",
+    "name": "嬌小",
+    "icon": "skills/small.png"
+  },
+  {
+    "id": "ironFist",
+    "name": "鐵拳",
+    "icon": "skills/iron.png"
+  },
+  {
+    "id": "iron",
+    "name": "鐵拳",
+    "icon": "skills/iron.png"
+  },
+  {
+    "id": "glow",
+    "name": "發光",
+    "icon": "skills/light.png"
+  },
+  {
+    "id": "light",
+    "name": "發光",
+    "icon": "skills/light.png"
+  },
+  {
+    "id": "strong",
+    "name": "大力士",
+    "icon": "skills/power.png"
+  },
+  {
+    "id": "power",
+    "name": "大力士",
+    "icon": "skills/power.png"
+  },
+  {
+    "id": "swimmer",
+    "name": "泳將",
+    "icon": "skills/swimmer.png"
+  },
+  {
+    "id": "robot",
+    "name": "機器人",
+    "icon": "skills/robot.png"
+  },
+  {
+    "id": "bigEater",
+    "name": "大胃王",
+    "icon": "skills/eater.png"
+  },
+  {
+    "id": "eater",
+    "name": "大胃王",
+    "icon": "skills/eater.png"
+  },
+  {
+    "id": "poison",
+    "name": "毒",
+    "icon": "skills/poison.png"
+  },
+  {
+    "id": "motivation",
+    "name": "幹勁",
+    "icon": "skills/motivation.png"
+  },
+  {
+    "id": "fly",
+    "name": "飛翔",
+    "icon": "skills/fly.png"
+  },
+  {
+    "id": "detect",
+    "name": "偵測",
+    "icon": "skills/detect.png"
+  },
+  {
+    "id": "barrier",
+    "name": "屏障",
+    "icon": "skills/barrier.png"
+  },
+  {
+    "id": "hearing",
+    "name": "音感",
+    "icon": "skills/music.png"
+  },
+  {
+    "id": "music",
+    "name": "音感",
+    "icon": "skills/music.png"
+  },
+  {
+    "id": "nightVision",
+    "name": "夜視",
+    "icon": "skills/nightVision.png"
+  },
+  {
+    "id": "night",
+    "name": "夜視",
+    "icon": "skills/night.png"
+  },
+  {
+    "id": "bomb",
+    "name": "爆炸",
+    "icon": "skills/bomb.png"
+  },
+  {
+    "id": "weapon",
+    "name": "手持武器",
+    "icon": "skills/weapon.png"
+  },
+  {
+    "id": "dive",
+    "name": "潛水",
+    "icon": "skills/dive.png"
+  },
+  {
+    "id": "ride",
+    "name": "搭乘",
+    "icon": "skills/ride.png"
+  },
+  {
+    "id": "cold",
+    "name": "耐寒",
+    "icon": "skills/cold.png"
+  },
+  {
+    "id": "photosynthesis",
+    "name": "光合成",
+    "icon": "skills/photosynthesis.png"
+  },
+  {
+    "id": "cute",
+    "name": "可愛",
+    "icon": "skills/cute.png"
+  },
+  {
+    "id": "smart",
+    "name": "聰明",
+    "icon": "skills/smart.png"
+  },
+  {
+    "id": "food",
+    "name": "食物",
+    "icon": "skills/food.png"
+  },
+  {
+    "id": "range",
+    "name": "遠距離攻擊",
+    "icon": "skills/range.png"
+  },
+  {
+    "id": "melee",
+    "name": "近距離攻擊",
+    "icon": "skills/melee.png"
+  },
+  {
+    "id": "brave",
+    "name": "勇氣",
+    "icon": "skills/brave.png"
+  },
+  {
+    "id": "camouflage",
+    "name": "偽裝",
+    "icon": "skills/camouflage.png"
+  },
+  {
+    "id": "slime",
+    "name": "黏液",
+    "icon": "skills/slime.png"
+  }
 ]
