@@ -1,0 +1,12 @@
+[
+  {"id":"001","no":"01","name":"菇菇","rarity":"★☆☆☆☆","favorite":"無","image":"","stats":{"red":50,"blue":10,"green":50},"skills":["lucky"]},
+  {"id":"003","no":"03","name":"小白菇菇","rarity":"★☆☆☆☆","favorite":"麵包","image":"","stats":{"red":75,"blue":30,"green":100},"skills":["slow"]},
+  {"id":"005","no":"05","name":"偽裝菇菇","rarity":"★☆☆☆☆","favorite":"麵包","image":"","stats":{"red":80,"blue":15,"green":80},"skills":["camouflage"]},
+  {"id":"006","no":"06","name":"喵咪菇菇","rarity":"★★☆☆☆","favorite":"仙人掌牛奶","image":"","stats":{"red":120,"blue":15,"green":50},"skills":["fast","nightVision"]},
+  {"id":"011","no":"11","name":"河童菇菇","rarity":"★★★☆☆","favorite":"天然水","image":"","stats":{"red":200,"blue":50,"green":120},"skills":["swimmer"]},
+  {"id":"stone_test","no":"T01","name":"石頭菇菇","rarity":"測試","favorite":"無","image":"","stats":{"red":160,"blue":80,"green":160},"skills":["stone"]},
+  {"id":"slime_test","no":"T02","name":"黏液菇菇","rarity":"測試","favorite":"無","image":"","stats":{"red":120,"blue":120,"green":170},"skills":["slime"]},
+  {"id":"poison_test","no":"T03","name":"毒菇菇","rarity":"測試","favorite":"無","image":"","stats":{"red":130,"blue":90,"green":120},"skills":["poison"]},
+  {"id":"weapon_test","no":"T04","name":"武器菇菇","rarity":"測試","favorite":"無","image":"","stats":{"red":180,"blue":80,"green":100},"skills":["weapon"]},
+  {"id":"lucky_test","no":"T05","name":"幸運菇菇","rarity":"測試","favorite":"無","image":"","stats":{"red":120,"blue":90,"green":120},"skills":["lucky"]}
+]
